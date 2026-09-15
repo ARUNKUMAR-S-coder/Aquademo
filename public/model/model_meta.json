@@ -1,0 +1,32 @@
+{
+  "model_id": "panda992/fish_disease_datasets",
+  "architecture": "ViTForImageClassification",
+  "base_model": "google/vit-base-patch16-224-in21k",
+  "validation_accuracy": 0.9728,
+  "num_classes": 7,
+  "classes": {
+    "0": "Bacterial Red disease",
+    "1": "Bacterial diseases - Aeromoniasis",
+    "2": "Bacterial gill disease",
+    "3": "Fungal diseases Saprolegniasis",
+    "4": "Healthy Fish",
+    "5": "Parasitic diseases",
+    "6": "Viral diseases White tail disease"
+  },
+  "input_size": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ]
+}

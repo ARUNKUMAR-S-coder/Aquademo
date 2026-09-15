@@ -1,0 +1,6 @@
+{
+  "name": "Fish Disease Screening AI",
+  "description": "Real-time client-side fish disease screening with panda992/fish_disease_datasets Vision Transformer (ViT) model, ONNX Runtime Web, camera capture, and clinical PDF reports.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
